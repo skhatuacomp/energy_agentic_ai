@@ -1,0 +1,5 @@
+Date,Region,Demand_MW,Supply_MW
+2025-08-01,North,1200,1180
+2025-08-01,South,950,930
+2025-08-02,North,1300,1290
+2025-08-02,South,980,950
