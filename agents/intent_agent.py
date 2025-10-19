@@ -9,6 +9,9 @@ from energy_agentic_ai.utils import normalize_datetime
 
 sys.path.append('/content')
 
+# -----------------------------------------------------------------------------------
+#  This class detects intents after parsing natural language queries.
+# -----------------------------------------------------------------------------------
 class IntentAgent:
     def __init__(self, llm=None, region_list=None):
         self.llm = llm

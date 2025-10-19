@@ -9,6 +9,10 @@ from energy_agentic_ai.utils import normalize_datetime
 
 sys.path.append('/content')
 
+# -----------------------------------------------------------------------------------
+#  This class loads consumption and outages log csv files. 
+#  It also embed outages log into vector db.
+# -----------------------------------------------------------------------------------
 class DataAgent:
     def __init__(self, consumption_file=None, outage_file=None):
         self.data_dir = "/content/energy_agentic_ai/data"

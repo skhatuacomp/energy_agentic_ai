@@ -5,6 +5,9 @@ from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_chroma import Chroma
 from huggingface_hub import InferenceClient
 
+# -----------------------------------------------------------------------------------
+#  This class generates reports for unstructured analyses date.
+# -----------------------------------------------------------------------------------
 class UnstructuredReportAgent:
 
     def __init__(self, chroma_path="/content/chroma_db", model_id="HuggingFaceH4/zephyr-7b-beta", top_k=10):

@@ -7,6 +7,9 @@ from energy_agentic_ai.utils import normalize_datetime
 
 sys.path.append('/content')
 
+# -----------------------------------------------------------------------------------
+#  This class generates reports for structured analyses date.
+# -----------------------------------------------------------------------------------
 class StructuredReportAgent:
     def __init__(self, model_name="mistralai/Mixtral-8x7B-Instruct-v0.1"):
         self.model_name = model_name

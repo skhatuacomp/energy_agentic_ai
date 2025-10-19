@@ -8,6 +8,9 @@ from energy_agentic_ai.utils import normalize_datetime
 
 sys.path.append('/content')
 
+# -----------------------------------------------------------------------------------
+#  This class analyses both structured and unstructured log data.
+# -----------------------------------------------------------------------------------
 class AnalysisAgent:
     def __init__(self, df_consumption, df_outages=None):
         self.df_consumption = df_consumption
